@@ -5,11 +5,10 @@ VH=/home/vagrant
 export DEBIAN_FRONTEND=noninteractive
 
 echo Updating apt sources
-apt-get update
+until apt-get update ; do echo retrying updating apt sources... ; done
 
 echo Updating packages
-ps aux | grep apt
-apt-get -y upgrade
+until apt-get -y upgrade ; do echo retrying updating packages... ; done
 
 echo Setting up ovpn
 sudo apt-get -y install network-manager-openvpn-gnome
