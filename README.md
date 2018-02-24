@@ -37,7 +37,15 @@ Then create the vagrant image for open vpen with:
 vagrant up
 vagrant ssh
 
-cd /ipvanish
-sudo openvpn --config ipvanish-NL-Amsterdam-ams-a01.ovpn
+cd /ipvanish ; sudo openvpn --config ipvanish-NL-Amsterdam-ams-a01.ovpn
 ```
 
+Or, if you prefer to store the credentials in a file
+```
+sudo touch /ipvanish/pass.txt
+sudo chmod 600 /ipvanish/pass.txt
+sudo echo <username> >> /ipvanish/pass.txt
+sudo echo <password> >> /ipvanish/pass.txt
+
+cd /ipvanish/ ; sudo openvpn --auth-user-pass pass.txt --config /ipvanish/ipvanish-NL-Amsterdam-ams-a01.ovpn
+```
