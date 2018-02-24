@@ -11,7 +11,7 @@ echo Updating packages
 until apt-get -y upgrade ; do echo retrying updating packages... ; done
 
 echo Setting up ovpn
-sudo apt-get -y install network-manager-openvpn-gnome
+apt-get -y install network-manager-openvpn-gnome
 
 echo ipvanish ovpn configurations
 mkdir /ipvanish && cd /ipvanish && wget --no-verbose https://www.ipvanish.com/software/configs/configs.zip && unzip -q configs.zip
