@@ -44,8 +44,8 @@ Or, if you prefer to store the credentials in a file
 ```
 sudo touch /ipvanish/pass.txt
 sudo chmod 600 /ipvanish/pass.txt
-sudo echo <username> >> /ipvanish/pass.txt
-sudo echo <password> >> /ipvanish/pass.txt
+echo <username> | sudo tee -a /ipvanish/pass.txt
+echo <password> | sudo tee -a /ipvanish/pass.txt
 
-cd /ipvanish/ ; sudo openvpn --auth-user-pass pass.txt --config /ipvanish/ipvanish-NL-Amsterdam-ams-a01.ovpn
+cd /ipvanish/ ; sudo openvpn --config /ipvanish/ipvanish-NL-Amsterdam-ams-a01.ovpn --auth-user-pass pass.txt
 ```
