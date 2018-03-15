@@ -1,7 +1,7 @@
 vagrant-ubuntu-16.04-ovpn
 =========================
 
-Vagrant/VirtualBox configuration to build an Ubuntu Desktop Xenial 16.04.3 LTS with open vpn
+Vagrant/VirtualBox configuration to build an Ubuntu Desktop Xenial 16.04.4 LTS with open vpn
 
 It's based on the box [jcaraballo/ubuntu-desktop-xenial](https://app.vagrantup.com/jcaraballo/boxes/ubuntu-desktop-xenial),
 created as described in [its GitHub project](https://github.com/jcaraballo/vagrant-box-ubuntu-desktop-xenial)
