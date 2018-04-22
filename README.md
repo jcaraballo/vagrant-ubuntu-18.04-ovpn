@@ -11,8 +11,8 @@ Requires
 
 * [Vagrant](https://www.vagrantup.com/downloads.html)
 ```
-wget https://releases.hashicorp.com/vagrant/2.0.1/vagrant_2.0.1_x86_64.deb
-sudo dpkg -i vagrant_2.0.1_x86_64.deb
+wget https://releases.hashicorp.com/vagrant/2.0.3/vagrant_2.0.3_x86_64.deb
+sudo dpkg -i vagrant_2.0.3_x86_64.deb
 ```
 
 * [VirtualBox](https://www.virtualbox.org/wiki/Linux_Downloads)
