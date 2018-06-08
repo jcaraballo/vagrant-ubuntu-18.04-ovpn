@@ -1,7 +1,7 @@
 vagrant-ubuntu-18.04-ovpn
 =========================
 
-Vagrant/VirtualBox configuration to build an Ubuntu Desktop Bionic 18.04 LTS with open vpn
+Vagrant/VirtualBox configuration to build an Ubuntu Desktop Bionic 18.04 LTS with OpenVPN
 
 It's based on the box [jcaraballo/ubuntu-desktop-bionic](https://app.vagrantup.com/jcaraballo/boxes/ubuntu-desktop-bionic),
 created as described in [its GitHub project](https://github.com/jcaraballo/vagrant-box-ubuntu-desktop-bionic)
@@ -31,7 +31,7 @@ If you have previously downloaded [jcaraballo/ubuntu-desktop-bionic](https://app
 vagrant box update --box jcaraballo/ubuntu-desktop-bionic
 ```
 
-Then create the vagrant image for open vpen with:
+Then create the vagrant image for OpenVPN with:
 
 ```
 vagrant up
