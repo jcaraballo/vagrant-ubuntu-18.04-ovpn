@@ -12,8 +12,8 @@ Vagrant.configure("2") do |config|
 
   # Every Vagrant development environment requires a box. You can search for
   # boxes at https://atlas.hashicorp.com/search.
-  config.vm.box = "jcaraballo/ubuntu-desktop-xenial"
-  #config.vm.box = "ubuntu-desktop-xenial-16.04.4"
+  config.vm.box = "jcaraballo/ubuntu-desktop-bionic"
+  #config.vm.box = "ubuntu-desktop-bionic-18.04"
 
   # Disable automatic box update checking. If you disable this, then
   # boxes will only be checked for updates when the user runs

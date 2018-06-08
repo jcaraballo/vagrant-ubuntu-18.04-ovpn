@@ -1,10 +1,10 @@
-vagrant-ubuntu-16.04-ovpn
+vagrant-ubuntu-18.04-ovpn
 =========================
 
-Vagrant/VirtualBox configuration to build an Ubuntu Desktop Xenial 16.04.4 LTS with open vpn
+Vagrant/VirtualBox configuration to build an Ubuntu Desktop Bionic 18.04 LTS with open vpn
 
-It's based on the box [jcaraballo/ubuntu-desktop-xenial](https://app.vagrantup.com/jcaraballo/boxes/ubuntu-desktop-xenial),
-created as described in [its GitHub project](https://github.com/jcaraballo/vagrant-box-ubuntu-desktop-xenial)
+It's based on the box [jcaraballo/ubuntu-desktop-bionic](https://app.vagrantup.com/jcaraballo/boxes/ubuntu-desktop-bionic),
+created as described in [its GitHub project](https://github.com/jcaraballo/vagrant-box-ubuntu-desktop-bionic)
 
 Requires
 --------
@@ -26,9 +26,9 @@ sudo apt-get install -y virtualbox-5.2 dkms
 
 Usage
 -----
-If you have previously downloaded [jcaraballo/ubuntu-desktop-xenial](https://app.vagrantup.com/jcaraballo/boxes/ubuntu-desktop-xenial) you might want to update to the latest version with
+If you have previously downloaded [jcaraballo/ubuntu-desktop-bionic](https://app.vagrantup.com/jcaraballo/boxes/ubuntu-desktop-bionic) you might want to update to the latest version with
 ```
-vagrant box update --box jcaraballo/ubuntu-desktop-xenial
+vagrant box update --box jcaraballo/ubuntu-desktop-bionic
 ```
 
 Then create the vagrant image for open vpen with:
