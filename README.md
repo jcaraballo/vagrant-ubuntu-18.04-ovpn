@@ -24,6 +24,10 @@ sudo apt-get update
 sudo apt-get install -y virtualbox-5.2 dkms
 ```
 
+* VirtualBox Extension Pack
+  - Download the [VirtualBox 5.2.12 Oracle VM VirtualBox Extension Pack](https://download.virtualbox.org/virtualbox/5.2.12/Oracle_VM_VirtualBox_Extension_Pack-5.2.12.vbox-extpack) from the VirtualBox site 
+  - Install from the VirtualBox Manager or simply double click on the extension package file
+
 Usage
 -----
 If you have previously downloaded [jcaraballo/ubuntu-desktop-bionic](https://app.vagrantup.com/jcaraballo/boxes/ubuntu-desktop-bionic) you might want to update to the latest version with
